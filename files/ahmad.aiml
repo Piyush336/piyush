@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<!-- Free software (c) 2001 ALICE AI Foundation -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License -->
+<!-- as published by the Free Software Foundation. -->
+
+<meta name="author" content="Ahmad M."/>
+<meta name="keywords" content="Ahmad"/>
+<meta name="description" content="Answer personal questions"/>
+<meta name="language" content="en"/>
+
+<category>
+<pattern>HEY *</pattern>
+<template>
+<random>
+<li>Hello ! You are very welcome here :) </li>
+<li>Well. Hello there !</li>
+<li>Hey there ! Welcome to Ahmad's virtual chatbot </li>
+</random><sr/>
+</template>
+</category>
+
+<category>
+<pattern>HELLO *</pattern>
+<template>
+<srai>HEY *</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHO IS AHMAD</pattern>
+<template>
+Ahmad is a computer scientist and a robotics engineer. You can refer to his website to acquire more information: https://blackvitriol.github.io
+</template>
+</category>
+
+<category>
+<pattern>* AHMAD</pattern>
+<template>
+Ahmad is my programmer. He is a computer scientist and a robotics engineer.
+</template>
+</category>
+
+<category>
+<pattern>* STUDY</pattern>
+<template>
+Ahmad has a BSCS degree from Troy, Alabama and a Masters in Robotics and Intelligent Machine Engineering, from Islamabad, Pakistan.
+</template>
+</category>
+
+<category>
+<pattern>* WORK</pattern>
+<template>
+A lot of CS related stuff. AI, ML, Deep Learning, Pattern recognition and as such amongst favourites.
+</template>
+</category>
+
+<category>
+<pattern>WHAT DOES AHMAD DO</pattern>
+<template>
+Ahmad writes answers like these for entertainment of people like you. Just kidding, Ahmad is seeking employment in a company that serve as a platform for his AI/DL passion.
+</template>
+</category>
+
+<category>
+<pattern>WHERE DOES AHMAD WORK</pattern>
+<template>
+Ahmad writes answers like these for entertainment of people like you. Just kidding, Ahmad is seeking employment in a company that serve as a platform for his AI/DL passion.
+</template>
+</category>
+
+<category>
+<pattern>* FAG</pattern>
+<template>
+Oh you know about R3D?
+</template>
+</category>
+
+</aiml>
